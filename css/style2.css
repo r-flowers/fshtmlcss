@@ -152,3 +152,57 @@ h6{
 	font-size: 200px!important;
 }
 */
+
+/*finish nav*/
+/*
+nav {
+	position: relative;
+	height:40px;
+	background-color: #383F51;
+}
+
+nav>ul{
+	position:absolute;
+	right:0px;
+	padding:0px;
+	margin:0px;
+
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li li{
+	display: block;
+}
+
+nav ul li li a{
+	padding:5px;
+	background: #383F51;
+	color: #DDDBF1;
+}
+
+
+nav a{
+	color:#fff;
+	text-decoration: none;
+	padding:5px;
+	display: block;
+	width:100px;
+	text-align: center;
+
+}
+
+nav a:hover{
+	background: #DDDBF1;
+	color: #383F51;
+	
+}
+*/
