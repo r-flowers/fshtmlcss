@@ -1,0 +1,53 @@
+*{
+	font-family:'helvetica';
+	color:#555;
+	box-sizing: border-box;
+	/* this is a comment */
+}
+
+body{
+	padding:60px;
+	background: #9BDEFB url(http://weknowyourdreams.com/images/ocean/ocean-04.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center 120%;
+	background-attachment: fixed;
+}
+
+h2 {
+	color:#D43D94;
+}
+
+#subhead, h6, p{color:#fff;}
+
+#makeblue{
+	color:#00f;
+}
+
+.group1{ color:#f00; }
+
+li.group1{
+	color:#000;
+	font-weight:bold;
+	font-size:50px;
+}
+
+div p{
+	color:black;
+}
+
+#poppa {
+	font-size:30px;
+}
+
+#poppa li{
+	color:#000;
+}
+
+#poppa > ul > li > ul > li{
+	color:#f00;
+}
+
+.group1 + h5{
+	font-size:30px;
+}

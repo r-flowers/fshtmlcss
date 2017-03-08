@@ -1,0 +1,154 @@
+*{
+	font-family:'helvetica';
+	color:#333;
+	box-sizing: border-box;
+}
+
+
+#mainContent{
+	width:960px;
+	margin:0px auto 0px auto;
+	background-color: #DDDBF1;
+}
+
+#mainContent div{
+	border:1px solid #fff;
+}
+
+#mainContent > div{
+	padding:20px;
+	width:33%;
+	display: block;
+	float:left;
+}
+
+.firstpara, td {
+	color:#3C4F76;
+}
+
+td{
+	font-weight:bold;
+}
+
+td[rowspan="2"]{
+	background-color:#D1BEB0;
+}
+
+td[rowspan="2"] + td {
+	background-color:#D1BEB0;
+}
+
+td[rowspan="2"] ~ td {
+	padding: 15px;
+}
+
+.btn, .btn:focus, .btn:visited, .btn:active {
+	display:inline-block;
+	padding:10px;
+	background-color:#383F51;
+	color:#fff;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color:#383F51;
+}
+
+
+#mainContent div:first-of-type{
+	background-color: #AB9F9D;
+}
+
+#mainContent div:first-child{
+	padding:40px;
+}
+
+#mainContent div:last-of-type{
+	background-color: #AB9F9D;
+}
+
+#mainContent div:last-child{
+	padding:40px;
+}
+
+tr{
+	background-color: #fff;
+}
+
+tr:nth-child(1){
+	background-color: #D1BEB0;
+}
+
+tr:nth-child(odd){
+	background-color: #DDDBF1;
+}
+
+#mainContent > div > div{
+	display:inline-block;
+	padding: 10px!important;
+	vertical-align: top;
+}
+
+h2 img{
+	width:40px;
+	height:30px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+nav li ul{
+	display:none;
+}
+
+nav li:hover ul{
+	display:block;
+}
+
+/*
+#mainContent:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+*/
+
+
+/*cascade experiment*/
+/*
+h6{
+	font-size:10px;
+}
+
+h6{
+	font-size:30px;
+}
+
+.cascading{
+	font-size:30px;
+}
+
+div h6{
+	font-size:20px;
+}
+
+div .cascading{
+	font-size:30px;
+}
+
+html body div #cascade{
+	font-size: 40px;
+}
+
+div #cascade{
+	font-size:80px;
+}
+
+#cascade{
+	font-size:50px;
+}
+
+h6{
+	font-size: 200px!important;
+}
+*/
