@@ -4,6 +4,68 @@
 	box-sizing: border-box;
 }
 
+/*nav*/
+/*
+header {
+	position: relative;
+	height:60px;
+	background-color: #383F51;
+}
+
+#logo{
+	height:100%;
+	padding:5px;
+	
+}
+
+nav{
+	position:absolute;
+	right:0px;
+	top:0px;
+	padding:0px;
+	margin:0px;
+}
+
+nav > ul{
+	margin:10px;
+}
+
+nav li ul{
+	display:none;
+}
+
+nav li:hover ul, nav ul li li{
+	display:block;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav ul li ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav a{
+	color:#DDDBF1;
+	background-color: #383F51;
+	text-decoration: none;
+	padding:10px;
+	display: block;
+	width:100px;
+	text-align: center;
+	border:1px solid #DDDBF1;
+}
+
+nav a:hover{
+	background: #DDDBF1;
+	color: #383F51;
+}
+*/
+
 
 #mainContent{
 	width:960px;
@@ -97,14 +159,6 @@ h2 img{
 	vertical-align: top;
 }
 
-nav li ul{
-	display:none;
-}
-
-nav li:hover ul{
-	display:block;
-}
-
 /*
 #mainContent:after {
 	content: '';
@@ -150,59 +204,5 @@ div #cascade{
 
 h6{
 	font-size: 200px!important;
-}
-*/
-
-/*finish nav*/
-/*
-nav {
-	position: relative;
-	height:40px;
-	background-color: #383F51;
-}
-
-nav>ul{
-	position:absolute;
-	right:0px;
-	padding:0px;
-	margin:0px;
-
-}
-nav ul li{
-	list-style: none;
-	display: inline-block;
-	vertical-align: top;
-}
-
-nav ul li ul{
-	margin:0px;
-	padding:0px;
-}
-
-nav ul li li{
-	display: block;
-}
-
-nav ul li li a{
-	padding:5px;
-	background: #383F51;
-	color: #DDDBF1;
-}
-
-
-nav a{
-	color:#fff;
-	text-decoration: none;
-	padding:5px;
-	display: block;
-	width:100px;
-	text-align: center;
-
-}
-
-nav a:hover{
-	background: #DDDBF1;
-	color: #383F51;
-	
 }
 */
